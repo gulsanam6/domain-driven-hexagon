@@ -1,3 +1,4 @@
+=== izmenenie iz vetki2 - coomit 2 ===
 === IZMENENIE IZ VETKI2 - commit 1 ===
 # Domain-Driven Hexagon
 
