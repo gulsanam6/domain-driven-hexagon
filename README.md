@@ -1,3 +1,4 @@
+Additional commit 3 in branch1 ===
 Additional commit2 in branch1 ===
 Additional commit 1 in branch ====
 === IZMENENIE IZ VETKI1 - COMMIT1 ===
