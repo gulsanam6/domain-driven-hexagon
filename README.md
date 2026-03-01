@@ -1,3 +1,4 @@
+=== IZMENENIE IZ VETKI2 - commit 1 ===
 # Domain-Driven Hexagon
 
 **Check out my other repositories**:
