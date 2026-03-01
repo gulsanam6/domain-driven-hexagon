@@ -1,3 +1,4 @@
+Additional commit 1 in branch ====
 === IZMENENIE IZ VETKI1 - COMMIT1 ===
 # Domain-Driven Hexagon
 
