@@ -1,3 +1,4 @@
+=== IZMENENIE IZ VETKI1 - COMMIT1 ===
 # Domain-Driven Hexagon
 
 **Check out my other repositories**:
@@ -139,7 +140,6 @@ Using modules is a great way to [encapsulate](<https://en.wikipedia.org/wiki/Enc
 Try to make every module independent and keep interactions between modules minimal. Think of each module as a mini application bounded by a single context. Consider module internals private and try to avoid direct imports between modules (like importing a class `import SomeClass from '../SomeOtherModule'`) since this creates [tight coupling](<https://en.wikipedia.org/wiki/Coupling_(computer_programming)>) and can turn your code into a [spaghetti](https://en.wikipedia.org/wiki/Spaghetti_code) and application into a [big ball of mud](https://en.wikipedia.org/wiki/Big_ball_of_mud).
 
 Few advices to avoid coupling:
-
 - Try not to create dependencies between modules or use cases. Instead, move shared logic into a separate files and make both depend on that instead of depending on each other.
 - Modules can cooperate through a [mediator](https://en.wikipedia.org/wiki/Mediator_pattern#:~:text=In%20software%20engineering%2C%20the%20mediator,often%20consist%20of%20many%20classes.) or a public [facade](https://en.wikipedia.org/wiki/Facade_pattern), hiding all private internals of the module to avoid its misuse, and giving public access only to certain pieces of functionality that meant to be public.
 - Alternatively modules can communicate with each other by using messages. For example, you can send commands using a commands bus or subscribe to events that other modules emit (more info on events and commands bus below).
